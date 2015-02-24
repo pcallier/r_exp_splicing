@@ -1,3 +1,11 @@
+# split_stimuli.praat
+# split stimulus files for r exp based on 3rd tier of
+# supplied text grid.
+# needs a selected tg and sound (the carrier), and then will ask you to
+# select another pair.
+# Not general.
+
+
 procedure save_chunk_and_tg(chunk, tg, dir$, prefix$)
 	select chunk
 	Save as WAV file: dir$ + "/" + prefix$ + ".wav"
